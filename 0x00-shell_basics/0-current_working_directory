@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $pwd
+CWD="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
