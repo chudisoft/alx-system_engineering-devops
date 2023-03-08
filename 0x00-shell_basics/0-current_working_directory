@@ -1,2 +1,2 @@
 #!/bin/bash
-CWD="$(pwd -P)"
+pwd
