@@ -1,2 +1,2 @@
 #!/bin/bash
-head iacta | taill -3
+awk 'NR==3' iacta
