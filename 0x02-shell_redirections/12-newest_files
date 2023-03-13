@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ("Hello, World\n")
+ls -1t | head -n 10
