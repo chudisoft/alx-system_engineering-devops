@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello $USER"
+echo "ibase=water; \$WATER + ibase=stir; \$STIR" | bc | tr -d '\\' | sed 's/\(^0\|\.$\)//'
