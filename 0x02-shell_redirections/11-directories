@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d | grep -Ev '^\.$|^\.\.$' | wc -l | echo
+find . -mindepth 1 -type d | wc -l
